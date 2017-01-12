@@ -1,0 +1,32 @@
+.demo-layout-transparent {
+    background: url('./images/POL_1210.JPG') center / cover;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+}
+
+.mdl-card {
+    margin: 0 auto;
+
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.head-card > .mdl-card__title {
+    background: url("https://pp.vk.me/c629429/v629429179/2c763/NYuD8uvdIr4.jpg") center/cover;
+    color: ghostwhite;
+    height: 150px;
+}
+
+.news-card > .mdl-card__title {
+    background-color: coral;
+    height: 100px;
+}
+
+.news-card p {
+    background-color: aquamarine;
+}
